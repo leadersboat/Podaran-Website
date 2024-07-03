@@ -1,0 +1,953 @@
+html, body {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    width: 100%;
+    gap:0;
+    overflow-x: hidden;
+    
+}
+
+div{
+    margin: 0;
+    padding: 0;
+}
+
+.carousel-section {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #cc6c6c;
+}
+
+.carousel {
+    width: 100%;
+    height: 100%;
+    /* overflow: hidden; */
+    position: relative;
+}
+
+.carousel-inner {
+    display: flex;
+    transition: transform 0.5s ease; 
+    height: 100%;
+    width: 100%;
+   /* transition: opacity 0.5s ease, filter 0.5s ease; */
+    
+    opacity: 1; /* Initial opacity value */
+    transform: scale(1); 
+}
+
+.carousel-item {
+    min-width: 100%;
+    height: 100%;
+    /* transition: opacity 0.5s ease; */
+}
+
+.carousel-item img {
+    width: 100%;
+    /* height: 100%; */
+    object-fit: contain;
+    display: block;
+}
+/* 
+carousel END*/
+
+/* 
+POTATOCHIPS - START
+*/
+
+.ProductList{
+    margin: 0;
+    padding: 0;
+}
+
+.title-Chips{
+    position: absolute;
+    z-index: 1000;
+    top:1.5rem;
+    color: white;   
+    margin-left: 40%;   
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 2.5rem;
+}
+.chipsSubtitle{
+    color:white;
+    font-size: 2rem;
+    text-align: center;
+}
+.background-chips{
+    width: 100%;
+    min-height: 130vh;   
+    margin-bottom: -25px;
+}
+
+.potato{
+    width: 100%;
+    position: absolute;
+    top: 10em;
+    box-sizing: border-box;
+    display: grid;
+    gap: 40px;
+    grid-template-columns: repeat(4, 1fr);
+    justify-items: center;
+    max-width: 1200px;
+    margin-left: 9rem;
+}
+
+.SectionChips{
+    position: relative;
+}
+
+
+/* 
+POTATOCHIPS - END
+*/
+
+/* 
+MURUKU  - START
+*/
+.background-muruku{
+    width: 100%;
+    min-height: 170vh;   
+    margin-bottom: -25px;
+}
+
+.title-Muruku{
+    position: absolute;
+    z-index: 1000;
+    top:1.5rem;
+    left:50%;
+    color:white;
+    font-size: 2.5rem;
+}
+.MurukuSubtitle{
+    color:white;
+    font-size: 2rem;
+    /* text-align: center; */
+}
+.muruku{
+    position: absolute;
+    top: 10em;
+    box-sizing: border-box;
+    display: grid;
+    gap: 40px;
+    grid-template-columns: repeat(4, 1fr);    
+    max-width: 1200px;   
+    margin-left: 5%;    
+    justify-items: center;
+}
+
+.SectionMuruku{
+    position: relative;
+}
+
+/* 
+MURUKU  - END
+*/
+
+/* 
+SWEET  - START
+*/
+.background-sweets{
+    width: 100%;
+    min-height: 190vh;   
+    margin-bottom: -25px;
+}
+
+.sweets{
+    position: absolute;
+    top: 10em;
+    box-sizing: border-box;
+    display: grid;
+    gap: 40px;
+    grid-template-columns: repeat(3, 1fr);    
+    max-width: 1200px;   
+    margin-left: 8rem;   
+}
+
+.title-Sweets{
+    position: absolute;
+    z-index: 1000;
+    top:1.5rem;
+    left:50%;
+    color:rgb(5, 78, 5);
+    font-size: 3rem;
+}
+
+.SweetSubtitle{
+    color:rgb(5, 78, 5);
+    font-size: 2rem;
+}
+
+.SectionSweets{
+    position: relative;
+}
+/* .butterscoth{
+    z-index: 1000;
+    position: absolute;
+} */
+
+/* 
+SWEET  - END
+*/
+
+/* 
+NEW ADDITION  - START
+*/
+.SectionNewAddition{
+    position: relative;
+}
+
+.background-NewAddition{
+    width: 100%;
+    min-height: 140vh;   
+    margin-bottom: -25px;
+}
+
+.NewLaunch{
+    position: absolute;
+    top: 13rem;
+    box-sizing: border-box;
+    display: grid;
+    gap: 40px;
+    grid-template-columns: repeat(4, 1fr);    
+    max-width: 1200px;   
+    margin-left: 5%; 
+    justify-items: center;
+}
+
+.title-NewLauch{
+    position: absolute;
+    z-index: 1000;
+    top:1.5rem;
+    left:40%;
+    color:white;
+    font-size: 3rem;     
+}
+.NewAdditionSubtitle{
+    color:white;
+    font-size: 2rem;
+    margin-left: 2rem;
+}
+
+
+
+/* 
+NEW ADDITION  - END
+*/
+
+/* 
+HEALTHY - START
+*/
+
+.SectionHealthy{
+    position: relative;
+}
+
+.background-Healthy{
+    width: 100%;
+    min-height: 140vh;   
+    margin-bottom: -25px;
+}
+
+.Healthy{
+    position: absolute;
+    top: 13rem;
+    box-sizing: border-box;
+    display: grid;
+    gap: 40px;
+    grid-template-columns: repeat(4, 1fr);    
+    max-width: 1200px;   
+    margin-left: 5%; 
+    justify-items: center;
+}
+
+.title-Healthy{
+    position: absolute;
+    z-index: 1000;
+    top:1.5rem;
+    left:35%;
+    color:rgb(77, 42, 2);
+    font-size: 3rem;     
+}
+
+.HealthySubtitle{
+    color:rgb(77, 42, 2);
+    font-size: 2rem;
+    margin-left: 1rem;
+}
+/* 
+HEALTHY - END
+*/
+
+/* 
+TRADITION
+ */
+
+ .SectionTradition{
+    position: relative;
+ }
+
+ .background-Tradition{
+    width: 100%;
+    min-height: 140vh; 
+    margin-bottom: -25px;
+ }
+
+.Tradition{
+    position: absolute;
+    top: 13rem;
+    box-sizing: border-box;
+    display: grid;
+    gap: 40px;
+    grid-template-columns: repeat(4, 1fr);    
+    max-width: 1200px;   
+    margin-left: 10%; 
+    justify-items: center;
+}
+
+.title-Tradition{
+    position: absolute;
+    z-index: 1000;
+    top:1.5rem;
+    left:35%;
+    color:rgb(160, 5, 5);
+    font-size: 3rem;  
+}
+
+.TraditionSubtitle{
+    color:rgb(160, 5, 5);
+    font-size: 2rem;
+}
+
+
+/* 
+TRADITION - END
+ */
+
+ /* 
+ PARTY-PACK - START
+  */
+
+.SectionPartyPacks{
+    position: relative;
+}
+
+.background-PartyPacks{
+    width: 100%;
+    min-height: 80vh; 
+    margin-bottom: -25px;
+}
+
+.PartyPacks{
+    position: absolute;
+    top: 13rem;
+    box-sizing: border-box;
+    display: grid;
+    gap: 40px;
+    grid-template-columns: repeat(4, 1fr);    
+    max-width: 1200px;   
+    margin-left: 10%; 
+    justify-items: center;
+}
+
+.title-Party{
+    position: absolute;
+    z-index: 1000;
+    top:1.5rem;
+    left:40%;
+    color:rgb(255, 255, 255);
+    font-size: 3rem;  
+}
+
+.PartySubtitle{
+    color: white;
+    font-size: 2rem;
+}
+ /* 
+ PARTY-PACK - END
+  */
+
+
+/* 
+HIGHSALE - START 
+*/
+.SectionHighSale{
+    position: relative;
+}
+
+.background-HighSale{
+    width: 100%;
+    min-height: 130vh; 
+    margin-bottom: -25px;
+}
+
+.HighSale{
+    position: absolute;
+    top: 13rem;
+    box-sizing: border-box;
+    display: grid;
+    gap: 40px;
+    grid-template-columns: repeat(4, 1fr);    
+    max-width: 1200px;   
+    margin-left: 10%; 
+    justify-items: center;
+}
+
+.title-HighSale{
+    position: absolute;
+    z-index: 1000;
+    top:1.5rem;
+    left:40%;
+    color:rgb(255, 255, 255);
+    font-size: 3rem;  
+}
+
+.HighSaleSubtitle{
+    color: white;
+    font-size: 2rem;
+}
+
+/* 
+HIGHSALE - START 
+*/
+
+/* 
+DEMAND - START 
+*/
+.SectionDemand{
+    position: relative;
+}
+
+.background-Demand{
+    width: 100%;
+    min-height: 130vh; 
+    /* margin-bottom: -25px; */
+}
+
+.Demand{
+    position: absolute;
+    top: 13rem;
+    box-sizing: border-box;
+    display: grid;
+    gap: 40px;
+    grid-template-columns: repeat(4, 1fr);    
+    max-width: 1200px;   
+    margin-left: 10%; 
+    justify-items: center;
+}
+
+.title-Demand{
+    position: absolute;
+    z-index: 1000;
+    top:1.5rem;
+    left:40%;
+    color:rgb(77, 6, 55);
+    font-size: 3rem;  
+}
+
+.DemandSubtitle{
+    color: rgb(77, 6, 55);
+    font-size: 2rem;
+}
+
+/* 
+DEMAND - START 
+*/
+
+/* Responsive layout */
+@media (max-width: 1400px) {
+    .title-Chips{
+        /* font-size: 4rem; */
+        /* left:50% */
+     }
+}
+@media (max-width: 1200px) {
+    /* POTATO - CHIPS */
+    .potato{
+        grid-template-columns: repeat(3, 1fr);
+        margin-left: -1%;
+    }
+    .background-chips{
+        min-height: 170vh;   
+    }
+    /* MURUKU  */
+    .background-muruku{
+         min-height: 180vh;   
+    }
+    .muruku{
+        grid-template-columns: repeat(3, 1fr);  
+    }
+     /* SWEET  */
+     .sweets{
+        grid-template-columns: repeat(2, 1fr); 
+        /* margin-left: 1000px;  */
+     }
+     .background-sweets{
+        min-height: 230vh;   
+     }
+     .title-Chips{
+        font-size: 3rem;
+     }
+
+      /* NEWLAUNCH */
+      .NewLaunch{
+        grid-template-columns: repeat(3, 1fr); 
+        /* margin-left: 40%; */
+     }
+
+     .background-NewAddition{
+        min-height: 190vh;
+     }
+
+     /* HEALTHY */
+     .background-Healthy{
+        min-height: 190vh;
+      }
+
+     .Healthy{
+        grid-template-columns: repeat(3, 1fr);
+        margin-left: 10%;
+     }
+
+      /* HIGH SALE */
+      .background-HighSale{
+        min-height: 160vh;
+     }
+     .HighSale{
+        grid-template-columns: repeat(3, 1fr);
+        margin-left: 19%;
+     }
+     .title-HighSale{
+        margin-left: -5%;
+     }
+
+     /* DEMAND */
+     .background-Demand{
+        min-height: 210vh;
+     }
+
+     .Demand{
+        grid-template-columns: repeat(3, 1fr);
+        margin-left: 19%;
+     }
+
+     .title-Demand{
+        margin-left: -5%;
+     }
+
+     
+}
+
+@media (max-width: 1000px) {
+     /* POTATO - CHIPS */
+    .potato{
+        grid-template-columns: repeat(2, 1fr);
+        margin-left: 1%;
+    }
+    .background-chips{
+        min-height: 220vh;   
+    }
+    .title-Chips{
+        font-size: 2.5rem;
+     }
+
+     /* MURUKU  */
+    .background-muruku{
+        height: 200vh;  
+    }
+    .muruku{
+        grid-template-columns: repeat(3, 1fr);
+    }
+
+     /* SWEET  */
+     .sweets{
+        grid-template-columns: repeat(2, 1fr);  
+        margin-left: 20%;
+     }
+     .background-sweets{
+        min-height: 230vh;  
+     }
+     
+      /* NEWLAUNCH */
+     .NewLaunch{
+        grid-template-columns: repeat(2, 1fr);
+        margin-left: 20%;
+     }
+
+     .background-NewAddition{
+        min-height: 260vh;
+     }
+
+     /* HEALTHY */
+     .background-Healthy{
+        min-height: 260vh;
+      }
+
+     .Healthy{
+        grid-template-columns: repeat(2, 1fr);
+        margin-left: 10%;
+     }
+
+     /* TRADITION */
+
+     .background-Tradition{
+        min-height: 210vh;
+     }
+
+     .Tradition{
+        grid-template-columns: repeat(3, 1fr);
+        margin-left: 5rem;
+     }
+
+     .title-Tradition{
+        margin-left: 1%;
+     }
+
+      /* PARTY */
+      .background-PartyPacks{
+        min-height: 160vh;
+     }
+     .PartyPacks{
+        grid-template-columns: repeat(2, 1fr);
+        margin-left: 20%;
+     }
+     .title-Party{
+        margin-left: -10%;
+     }
+
+     /* HIGH SALE */
+     .background-HighSale{
+        min-height: 190vh;
+     }
+     .HighSale{
+        grid-template-columns: repeat(2, 1fr);
+        margin-left: 29%;
+     }
+     .title-HighSale{
+        margin-left: -5%;
+     }
+
+     /* DEMAND */
+     .background-Demand{
+        min-height: 210vh;
+     }
+
+     .Demand{
+        grid-template-columns: repeat(2, 1fr);
+        margin-left: 19%;
+     }
+
+     .title-Demand{
+        margin-left: -5%;
+     }
+}
+
+@media (max-width: 800px) {
+     /* POTATO - CHIPS */
+    .potato{
+        grid-template-columns: repeat(2, 1fr);
+        margin-left: 3%;
+    }
+    .background-chips{
+        min-height: 230vh;   
+    }
+    .title-Chips{
+        font-size: 2rem;
+        /* margin-left: 35%; */
+     }
+     /* MURUKU  */
+    .background-muruku{
+        min-height: 290vh;  
+    }
+    .muruku{
+        grid-template-columns: repeat(2, 1fr);
+    }
+    .title-Muruku{
+        font-size: 2rem;
+    }
+     /* SWEET  */
+     .sweets{
+        grid-template-columns: repeat(1, 1fr); 
+        margin-left: 30%;
+     }
+
+     .background-sweets{
+        min-height: 390vh;  
+     }
+
+     .butterscoth{
+        /* margin-left: -50rem; */
+     }
+
+     /* NEWLAUNCH */
+
+     .NewLaunch{
+        grid-template-columns: repeat(1, 1fr);
+        margin-left: 30%;
+     }
+
+     .background-NewAddition{
+        min-height: 460vh;
+     }
+     .title-NewLauch{
+        margin-left: -5%;
+     }
+     .NewAdditionSubtitle{
+        margin-left: 15%;
+     }
+
+      /* HEALTHY */
+      .background-Healthy{
+        min-height: 410vh;
+      }
+
+     .Healthy{
+        grid-template-columns: repeat(1, 1fr);
+        margin-left: 30%;
+     }
+     .HealthySubtitle{
+        /* margin-left: 10%; */
+        margin-left: 2rem;
+     }
+
+     /* TRADITION */
+
+     .background-Tradition{
+        min-height: 250vh;
+     }
+
+     .Tradition{
+        grid-template-columns: repeat(2, 1fr);
+        margin-left: 9rem;
+     }
+
+     .title-Tradition{
+        margin-left: -1%;
+     }
+
+     /* PARTY */
+     .background-PartyPacks{
+        min-height: 250vh;
+     }
+     .PartyPacks{
+        grid-template-columns: repeat(1, 1fr);
+        margin-left: 35%;
+     }
+     .title-Party{
+        margin-left: -5%;
+     }
+
+     /* HIGH SALE */
+     .background-HighSale{
+        min-height: 280vh;
+     }
+     .HighSale{
+        grid-template-columns: repeat(1, 1fr);
+        margin-left: 29%;
+     }
+     .title-HighSale{
+        margin-left: -20%;
+     }
+
+     /* DEMAND */
+     .background-Demand{
+        min-height: 290vh;
+     }
+
+     .Demand{
+        grid-template-columns: repeat(1, 1fr);
+        margin-left: 29%;
+     }
+
+     .title-Demand{
+        margin-left: -15%;
+     }
+}
+
+
+@media (max-width: 500px) {
+     /* POTATO - CHIPS */
+    .potato{
+        grid-template-columns: 1fr;
+        margin-left: 2%;
+    }
+    .background-chips{
+        min-height: 370vh;   
+    }
+    .title-Chips{
+        font-size: 2rem;
+        margin-left: 30%;
+     }
+     /* MURUKU  */
+    .background-muruku{
+        min-height: 500vh;  
+    }
+    .muruku{
+        grid-template-columns: 1fr;
+        margin-left: 20%;
+    }
+    .title-Muruku{
+        font-size: 2rem;
+        margin-left: -10%;
+    }
+   
+     /* SWEET  */
+     .sweets{
+        grid-template-columns: 1fr;
+        margin-top: 4rem;
+        margin-left: 20%;
+     }
+     .elachipapdi{
+        margin-left: 6rem;
+     }
+     .title-Sweets{
+        left:40%;
+     }
+     .background-sweets{
+        min-height: 390vh;  
+     }
+
+     .elachipapdi{
+        margin-left: -7rem;
+     }
+
+     /* NEWLAUNCH */
+
+     .NewLaunch{
+        grid-template-columns: 1fr;
+        margin-left: 20%;
+     }
+
+     .background-NewAddition{
+        min-height: 470vh;
+     }
+     .title-NewLauch{
+        margin-left: -15%;
+     }
+     .NewAdditionSubtitle{
+        margin-left: 2rem;
+     }
+
+      /* HEALTHY */
+      .background-Healthy{
+        min-height: 410vh;
+      }
+
+     .Healthy{
+        grid-template-columns: 1fr;
+        margin-left: 20%;
+     }
+     .title-Healthy{
+        margin-left: -4rem;
+     }
+
+     /* TRADITION */
+
+     .background-Tradition{
+        min-height: 450vh;
+     }
+
+     .Tradition{
+        grid-template-columns: 1fr;
+        margin-left: 25%;
+     }
+
+     .title-Tradition{
+        margin-left: -15%;
+     }
+
+     /* PARTY */
+     .background-PartyPacks{
+        min-height: 250vh;
+     }
+     .PartyPacks{
+        grid-template-columns: 1fr;
+        margin-left: 25%;
+     }
+     .title-Party{
+        margin-left: -15%;
+     }
+
+     /* HIGH SALE */
+     .background-HighSale{
+        min-height: 290vh;
+     }
+     .HighSale{
+        grid-template-columns: 1fr;
+        margin-left: 29%;
+     }
+     .title-HighSale{
+        margin-left: -20%;
+     }
+
+     /* DEMAND */
+     .background-Demand{
+        min-height: 290vh;
+     }
+
+     .Demand{
+        grid-template-columns: 1fr;
+        margin-left: 29%;
+     }
+
+     .title-Demand{
+        margin-left: -15%;
+     }
+}
+
+
+/* SCROLL EFFECTS */
+
+   /*  DOWN TO UP */ 
+
+.DownDirection{      
+    transform: translateY(-400px); 
+    opacity: 0;
+    animation-delay: 0.7s;
+    animation-duration: 1s;
+}
+
+@keyframes slideIn {
+   0% {
+       transform: translateY(-100px);
+       opacity: 0;
+   }
+   100% {
+       transform: translateY(0);
+       opacity: 1;
+   }
+ }
+
+ .DownDirection.visible {
+   transform: translateY(0); 
+   opacity: 1;
+   animation: slideIn 1s forwards;
+}
+
+/* UP TO DOWN*/ 
+
+.UpDirection{      
+   transform: translateY(400px); 
+   opacity: 0;
+   animation-delay: 0.7s;
+   animation-duration: 1s;
+}
+
+@keyframes slideIn {
+  0% {
+      transform: translateY(-100px);
+      opacity: 0;
+  }
+  100% {
+      transform: translateY(0);
+      opacity: 1;
+  }
+}
+
+.UpDirection.visible {
+  transform: translateY(0); 
+  opacity: 1;
+  animation: slideIn 1s forwards;
+}
